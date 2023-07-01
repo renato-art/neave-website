@@ -16,12 +16,15 @@ main {
 #television {
     position: relative;
     height: 512px;
+    width: auto;
 }
 
-video {
+#player--container {
     position: absolute;
     left: 60px;
     top: 54px;
+    height: 420px;
+    overflow: hidden;
 }
 
 img {
